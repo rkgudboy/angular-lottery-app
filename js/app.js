@@ -6,7 +6,7 @@ var lotteryApp = angular.module('lotteryApp', []);
 
 
 lotteryApp.factory('game', function() {
-  var tileNames = ['Airlift', 'Don', 'Kick', 'Sultan'];
+  var tileNames = ['airlift', 'don', 'kick', 'sultan'];
   return new Game(tileNames);
 });
 
